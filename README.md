@@ -1,26 +1,28 @@
 # v3-admin-ele
 
-基于 vite3.x + vue3.x + element-plus 的后台管理系统模板
+## 环境依赖
+基于 
+[vite3.x](https://vitejs.cn) + 
+[vue3.x](https://cn.vuejs.org) + 
+[element-plus](https://element-plus.gitee.io/zh-CN) 
+的
+[JavaScript版](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Language_Overview)
+后台管理系统模板
+
+npm -g i [pnpm](https://pnpm.io/zh/motivation)
+
+Vite need [Node.js](https://nodejs.org/zh-cn/) 16+
 
 部分设计参考了 [vue3-admin-plus](https://github.com/jzfai/vue3-admin-plus)
 
-- 安装依赖
+## 安装运行
 
 ```bash
 cd v3-admin-ele
+pnpm i # 安装
+pnpm run dev # 运行
+pnpm run build # 打包
 
-pnpm i
-
-```
-
-- 运行
-
-```bash
-pnpm run dev
-```
-
-- 打包
-
-```bash
-pnpm run build
+pnpm run preview # 预览生产环境
+pnpm run lint # 代码格式检查并自动修复
 ```
