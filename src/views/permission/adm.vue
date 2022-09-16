@@ -86,6 +86,7 @@
     <el-dialog
       v-model="accountDialog.visible"
       :title="accountDialog.form.id ? '编辑用户' : '新增用户'"
+      :close-on-click-modal="false"
       width="340px"
     >
       <el-form

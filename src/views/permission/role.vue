@@ -41,6 +41,7 @@
     <el-dialog
       v-model="perData.visible"
       :title="perData.form.id ? '编辑权限' : '新增角色'"
+      :close-on-click-modal="false"
       width="340px"
     >
       <el-form ref="formtRef" :model="perData.form" :rules="perData.rules" label-width="80px">

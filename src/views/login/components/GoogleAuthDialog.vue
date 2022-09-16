@@ -1,5 +1,10 @@
 <template>
-  <el-dialog v-model="dialogData.visible" title="谷歌安全码信息" width="360px">
+  <el-dialog
+    v-model="dialogData.visible"
+    title="谷歌安全码信息"
+    :close-on-click-modal="false"
+    width="360px"
+  >
     <template v-if="!props.ready">
       <el-result v-if="!dialogData.qr_url" icon="info" title="提示">
         <template #sub-title>

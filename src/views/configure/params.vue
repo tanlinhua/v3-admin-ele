@@ -15,8 +15,8 @@
     </el-form>
 
     <el-table v-loading="tableData.loading" :data="tableData.list" border style="width: 100%">
-      <el-table-column prop="id" label="ID" />
-      <el-table-column prop="key" label="键" />
+      <el-table-column prop="id" label="ID" width="100" />
+      <el-table-column prop="key" label="键" width="200" />
       <el-table-column prop="value" label="值" />
       <el-table-column prop="remarks" label="备注" />
       <el-table-column label="操作" fixed="right" width="140">
