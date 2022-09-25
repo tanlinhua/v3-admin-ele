@@ -26,3 +26,9 @@ pnpm run build # 打包
 pnpm run preview # 预览生产环境
 pnpm run lint # 代码格式检查并自动修复
 ```
+
+## pnpm
+node_modules/.modules.yaml在项目中打开该文件。
+
+它将包含一个名为“store”的字段，其中包含用于将包硬链接到您的项目的商店的位置。
+
